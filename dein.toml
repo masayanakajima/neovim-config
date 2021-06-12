@@ -4,7 +4,7 @@ repo = 'Shougo/dein.vim'
 # ------------------------------------                                    
 # colorscheme tender setting                                    
 # ------------------------------------
-[[plugins]]                                                                                                                                                                                                                                             
+[[plugins]]                                                                                                                                                   
 repo = 'jacoborus/tender.vim'                                    
 hook_add = '''                                              
     colorscheme tender                                      
@@ -37,12 +37,17 @@ repo = 'airblade/vim-gitgutter'
 [[plugins]]
 repo = 'cohama/lexima.vim'
 
+[[plugins]]
+repo = 'ctrlpvim/ctrlp.vim'
 
+[[plugins]]
+repo = 'vim-scripts/grep.vim'
 
+[[plugins]]
+repo = 'ryanoasis/vim-devicons'
 
-
-
-
+[[plugins]]
+repo = 'kristijanhusak/defx-icons'
 
 
 

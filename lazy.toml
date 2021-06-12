@@ -3,4 +3,12 @@
 # ------------------------------------           
 [[plugins]]                                                                                                                                                                                                                                                                           
 repo = 'cespare/vim-toml'                                    
-on_ft = 'toml'  
+on_ft = 'toml'
+
+[[plugins]]
+repo = 'fatih/vim-go'
+on_ft = ['go']
+
+[[plugins]]
+repo = 'rcmdnk/vim-markdown'
+on_ft = ['md', 'markdown']
