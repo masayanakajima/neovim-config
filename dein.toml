@@ -12,15 +12,30 @@ hook_add = '''
     syntax on                                               
     set t_Co=256                                           
     let $NVIM_TUI_ENABLE_TRUE_COLOR=1                                    
-''' 
+'''
 
+#vimfilerを使うために必要
+[[plugins]]
+repo =  'Shougo/unite.vim'
 
+#ディレクトリ表示
+[[plugins]]
+repo = 'Shougo/vimfiler'
 
+#https://qiita.com/kooooooooooooooooohe/items/fb106e0a0f0969b4ee38
+[[plugins]]
+repo = 'Yggdroot/indentLine'
 
+[[plugins]]
+repo = 'bronson/vim-trailing-whitespace'
 
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
 
-
-
+[[plugins]]
+repo = 'cohama/lexima.vim'
 
 
 

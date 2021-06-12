@@ -10,7 +10,7 @@ noremap <Space>w :<C-u>w<CR>                                    " ファイル�
 imap <C-j> <esc>
 noremap! <C-j> <esc>
 
-" encode setting                                                                                                                                 
+" encode setting
 set encoding=utf-8
 " edita setting
 set number                                                      " 行番号表示
@@ -28,6 +28,7 @@ set shiftwidth=2                                                " tabの幅
 
 nmap ss :split<Return><C-w>w
 nmap sv :vsplit<Return><C-w>w
+nmap sf :VimFiler<Return>
 
 nmap <Space> <C-w>w
 map s<left> <C-w>h
