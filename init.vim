@@ -28,7 +28,7 @@ set shiftwidth=2                                                " tabの幅
 
 nmap ss :split<Return><C-w>w
 nmap sv :vsplit<Return><C-w>w
-nmap sf :VimFiler<Return>
+" nmap sf :VimFiler<Return>
 nmap rg :Rgrep<CR>
 
 nmap <Space> <C-w>w

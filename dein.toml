@@ -15,12 +15,12 @@ hook_add = '''
 '''
 
 #vimfilerを使うために必要
-[[plugins]]
-repo =  'Shougo/unite.vim'
+#[[plugins]]
+#repo =  'Shougo/unite.vim'
 
 #ディレクトリ表示
-[[plugins]]
-repo = 'Shougo/vimfiler'
+#[[plugins]]
+#repo = 'Shougo/vimfiler'
 
 #https://qiita.com/kooooooooooooooooohe/items/fb106e0a0f0969b4ee38
 [[plugins]]
@@ -43,16 +43,36 @@ repo = 'ctrlpvim/ctrlp.vim'
 [[plugins]]
 repo = 'vim-scripts/grep.vim'
 
+#[[plugins]]
+#repo = 'ryanoasis/vim-devicons'
+
 [[plugins]]
-repo = 'ryanoasis/vim-devicons'
+repo = 'Shougo/defx.nvim'
+depends = ['defx-git', 'defx-icons']
+hook_add = """
+source ~/.config/nvim/plugins/defx.rc.vim
+"""
 
 [[plugins]]
 repo = 'kristijanhusak/defx-icons'
 
+[[plugins]]
+repo = 'kristijanhusak/defx-git'
 
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+hook_add = """
+source ~/.config/nvim/plugins/denite.rc.vim
+"""
 
+[[plugins]]
+repo = 'altercation/vim-colors-solarized'
 
+[[plugins]]
+repo = 'tpope/vim-rhubarb'
 
+[[plugins]]
+repo = 'itchyny/lightline.vim'
 
 
 
