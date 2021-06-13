@@ -74,5 +74,6 @@ repo = 'tpope/vim-rhubarb'
 [[plugins]]
 repo = 'itchyny/lightline.vim'
 
-
+[[plugins]]
+repo = 'rking/ag.vim'
 
