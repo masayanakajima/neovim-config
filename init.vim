@@ -24,7 +24,7 @@ set cursorline                                                  " カーソル�
 " tab setting
 set expandtab                                                   " tabを複数のspaceに置き換え
 set tabstop=4                                                   " tabは半角2文字
-set shiftwidth=2                                                " tabの幅
+set shiftwidth=4                                                " tabの幅
 
 nmap ss :split<Return><C-w>w
 nmap sv :vsplit<Return><C-w>w
