@@ -23,7 +23,7 @@ set ruler                                                       " カーソル�
 set cursorline                                                  " カーソルハイライト
 " tab setting
 set expandtab                                                   " tabを複数のspaceに置き換え
-set tabstop=2                                                   " tabは半角2文字
+set tabstop=4                                                   " tabは半角2文字
 set shiftwidth=2                                                " tabの幅
 
 nmap ss :split<Return><C-w>w
