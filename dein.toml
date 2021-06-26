@@ -1,18 +1,18 @@
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
-# ------------------------------------                                    
-# colorscheme tender setting                                    
 # ------------------------------------
-[[plugins]]                                                                                                                                                   
-repo = 'jacoborus/tender.vim'                                    
-hook_add = '''                                              
-    colorscheme tender                                      
-    set background=dark                                     
-    syntax on                                               
-    set t_Co=256                                           
-    let $NVIM_TUI_ENABLE_TRUE_COLOR=1                                    
-'''
+# colorscheme tender setting
+# ------------------------------------
+#[[plugins]]
+#repo = 'jacoborus/tender.vim'
+#hook_add = '''
+#    colorscheme tender
+#    set background=dark
+#    syntax on
+#    set t_Co=256
+#    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+#'''
 
 #vimfilerを使うために必要
 #[[plugins]]
@@ -22,9 +22,20 @@ hook_add = '''
 #[[plugins]]
 #repo = 'Shougo/vimfiler'
 
+#[[plugins]]
+#repo = "morhetz/gruvbox"
+
+#vim ステータスバーを装飾する
+[[plugins]]
+repo = "vim-airline/vim-airline"
+
 #https://qiita.com/kooooooooooooooooohe/items/fb106e0a0f0969b4ee38
 [[plugins]]
 repo = 'Yggdroot/indentLine'
+
+#検索件数表示
+[[plugins]]
+repo = 'osyo-manga/vim-anzu'
 
 [[plugins]]
 repo = 'bronson/vim-trailing-whitespace'
@@ -43,8 +54,8 @@ repo = 'ctrlpvim/ctrlp.vim'
 [[plugins]]
 repo = 'vim-scripts/grep.vim'
 
-#[[plugins]]
-#repo = 'ryanoasis/vim-devicons'
+[[plugins]]
+repo = 'ryanoasis/vim-devicons'
 
 [[plugins]]
 repo = 'Shougo/defx.nvim'
@@ -65,8 +76,8 @@ hook_add = """
 source ~/.config/nvim/plugins/denite.rc.vim
 """
 
-[[plugins]]
-repo = 'altercation/vim-colors-solarized'
+#[[plugins]]
+#repo = 'altercation/vim-colors-solarized'
 
 [[plugins]]
 repo = 'tpope/vim-rhubarb'
